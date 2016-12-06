@@ -1,0 +1,24 @@
+{
+  "name": "arinlusion",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "comp": "webpack --config public/javascripts/mywebpack.config.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "morgan": "~1.7.0",
+    "node-sass-middleware": "0.9.8",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "vue": "^2.0.5",
+    "webpack": "^1.13.3",
+    "vue-resource": "^0.1.13"
+  }
+}

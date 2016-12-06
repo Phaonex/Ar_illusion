@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+      <script src="vue/dist/vue.js"></script>
+      <script src="vue-resource/dist/vue-resource.js"></script>
+
+  </head>
+  <body>
+  <div id="my_view">
+      <p>{{ origin | json }}</p>
+  </div>
+    <!--<div id="app">
+        {{ message }}
+    </div>
+
+    <div id="app-2">
+  <span v-bind:title="message">
+    Hover your mouse over me for a few seconds to see my dynamically bound title!
+  </span>
+    </div>
+
+    <div id="app-3">
+        <p v-if="seen">Now you see me</p>
+    </div>
+
+    <div id="app-4">
+        <ol>
+            <li v-for="todo in todos">
+                {{ todo.text }}
+            </li>
+        </ol>
+    </div>
+
+    <div id="app-5">
+        <p>{{ message }}</p>
+        <button v-on:click="reverseMessage">Reverse Message</button>
+    </div>
+
+    <div id="app-6">
+        <p>{{ message }}</p>
+        <input v-model="message">
+    </div>
+
+    <div id="app-7">
+        <ol>
+            &lt;!&ndash; Now we provide each todo-item with the todo object    &ndash;&gt;
+            &lt;!&ndash; it's representing, so that its content can be dynamic &ndash;&gt;
+            <todo-item v-for="item in groceryList" v-bind:todo="item"></todo-item>
+        </ol>
+    </div>-->
+
+    <div id="wrapper">
+        <h1><%= title %></h1>
+        <h3>Welcome to AR enhancing physical Reality with the digital contents <%= title %></h3>
+        <header>
+            <section id="app-search">
+                <form>
+                    <app-find v-model="searchble"></app-find>
+                </form>
+                <span>serach for: {{ searchble }}</span>
+            </section>
+            <nav id="app-nav">
+                <ul>
+                    <app-links v-for="item in pages" v-bind:link="item"></app-links>
+                </ul>
+            </nav>
+            <object type="image/svg+xml" data="/images/techBarUp.svg" class="techBar" id="techBarHearder"></object>
+            <!--
+            <div class="techBar" id="techBarHearder">
+                <div class="tecIdicator"></div>
+                <div class="tecIdicator"></div>
+                <div class="tecIdicator"></div>
+            </div>
+            <p> ILLUSION ARGOMENTED</p>-->
+
+            <h1><img src="images/ArLogo.svg" alt="AR illusion logo" id="logo"></h1>
+        </header>
+
+        <section id="contents">
+            <div id="app-slide">
+                <!--<app-img-slider></app-img-slider>
+                <a href="" class="fordward"> > </a>
+                <app-indicators-links v-for="item in imgs" v-bind:img="item" v-on:click="imgChange"></app-indicators-links>
+                <a href="" class="back"> < </a>-->
+                <app-temp></app-temp>
+
+            </div>
+            <section id="app-testemonial">
+                <!--<div>
+                    <div id="teste_1" class="picFrame"></div>
+                    <h3>IT'S NOT A FUTURISTIC DREAM, IT’S HERE NOW.</h3>
+                    <p>Augmented reality (AR) is cutting-edge
+                        technology that allows for a digitally enhanced view of the real world, connecting you with more meaningful content in your everyday life. </p>
+                </div>
+                <div>
+                    <div id="teste_2" class="picFrame"></div>
+                    <h3>RR INLUSION leads the way in augmented reality and interactive print.</h3>
+                    <p>
+                        Helping to bridge the gap between the print and digital worlds. The Layar App has been downloaded over 38 million times is used by over 80,000 publishers and editors.</p>
+                </div>
+                <div>
+                    <div id="teste_3" class="picFrame"></div>
+                    <h3>We believe in augmented reality </h3>
+                    <p>It has the power to effect change in the way people discover and interact with useful and educational information. Our Sponsored Pages program – which provides Creator credits to educatorsgrowth in the global community.</p>
+                </div>-->
+                <app-testimonial  v-for="item in witness" v-bind:link="item"></app-testimonial>
+            </section>
+            <div id="Itemlist">
+                <app-listas></app-listas>
+            </div>
+
+        </section>
+
+        <footer>
+            <object type="image/svg+xml" data="/images/techBarDow.svg" class="techBar" id="techBarFooter"></object>
+            <!--<div class="techBar"></div>-->
+            <section>
+            <h2><img src="" alt="" id="logosmall"></h2>
+            <p>Copyright © 2015-2021 AR Inlution. All Rights Reserved. Interactivity, Design and Development services.</p>
+            <div id="partners">
+                <app-socials v-for="item in socials" v-bind:social="item" ></app-socials>
+
+            </div>
+            </section>
+        </footer>
+    </div>
+
+    <script src="javascripts/vueApp.js"></script>
+  </body>
+</html>

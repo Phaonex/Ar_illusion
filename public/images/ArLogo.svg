@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="236px" height="238px" viewBox="0 0 236 238" style="enable-background:new 0 0 236 238;" xml:space="preserve">
+<g>
+	<g>
+		<path style="fill:#252165;" d="M4.998,223.361c0,4.971,4.03,9,9,9h209.672c4.97,0,9-4.029,9-9V13.691c0-4.971-4.03-9-9-9H13.998
+			c-4.97,0-9,4.029-9,9V223.361z"/>
+		<path style="fill:none;stroke:#ED1F24;stroke-width:2;stroke-miterlimit:10;" d="M4.998,223.361c0,4.971,4.03,9,9,9h209.672
+			c4.97,0,9-4.029,9-9V13.691c0-4.971-4.03-9-9-9H13.998c-4.97,0-9,4.029-9,9V223.361z"/>
+	</g>
+	<polygon style="fill:#FFFFFF;stroke:#030202;stroke-miterlimit:10;" points="208.326,79.912 196.504,68.091 196.504,40.854 
+		169.269,40.854 156.393,27.979 82.946,27.979 70.07,40.854 41.162,40.854 41.162,69.763 31.013,79.912 31.013,153.356 
+		41.162,163.505 41.162,196.198 73.854,196.198 82.946,205.29 156.393,205.29 165.484,196.198 196.504,196.198 196.504,165.178 
+		208.326,153.356 	"/>
+	<g>
+		<rect x="98.231" y="122.95" style="fill:#00A651;" width="11.765" height="62.894"/>
+		<g>
+			<rect x="127.692" y="122.033" style="fill:#00A651;" width="11.766" height="65.08"/>
+			<rect x="175.824" y="122.033" style="fill:#00A651;" width="11.766" height="65.08"/>
+			<polygon style="fill:#00A651;" points="136.567,127.432 187.064,177.584 178.746,185.844 128.25,135.694 			"/>
+		</g>
+		<g>
+			<rect x="48.482" y="51.403" style="fill:#ED2124;" width="65.531" height="11.765"/>
+			<rect x="44.466" y="88.755" style="fill:#ED2124;" width="65.53" height="11.765"/>
+			<rect x="49.237" y="54.336" style="fill:#ED2124;" width="11.768" height="65.529"/>
+			<rect x="98.231" y="54.336" style="fill:#ED2124;" width="11.765" height="65.529"/>
+		</g>
+		<g>
+			<rect x="122.98" y="53.259" style="fill:#ED2124;" width="65.532" height="11.763"/>
+			<rect x="127.754" y="90.608" style="fill:#ED2124;" width="60.758" height="11.765"/>
+			<rect x="127.754" y="56.19" style="fill:#ED2124;" width="11.765" height="63.076"/>
+			<rect x="178.336" y="48.237" style="fill:#ED2124;" width="11.765" height="48.19"/>
+			
+				<rect x="156.776" y="99.722" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 216.16 300.7483)" style="fill:#ED2124;" width="27.188" height="11.764"/>
+		</g>
+		<rect x="94.356" y="154.949" style="fill:#FFFFFF;" width="95.745" height="6.361"/>
+		<rect x="46.137" y="77.354" style="fill:#FFFFFF;" width="147.063" height="6.362"/>
+	</g>
+</g>
+<rect x="35.953" y="249.327" style="fill:none;" width="165.761" height="35.871"/>
+<text transform="matrix(1 0 0 1 37.8481 269.6191)" style="fill:#FDFDFE; font-family:'Orbitron-Medium'; font-size:26.3541;">AR Inlusion</text>
+</svg>

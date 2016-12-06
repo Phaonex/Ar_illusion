@@ -1,0 +1,261 @@
+
+$font-orbitron: 14px "Orbitron", futura, Arial, sans-serif
+$font-sourcePro: 14px "Source sans pro", lato, futura, sans-serif
+
+$padding: 0 2% 0 2%
+$divisionMargin: 5px 10px 5px 10px
+$bordRadius: 4px
+$BGtransparent: #f0f8ff4d
+
+body
+
+  font: $font-orbitron
+  background-image: url("../images/background.png"), linear-gradient(to right, #6b2929 0%, #80b1c2 100%)
+  background-blend-mode: color-dodge
+  padding: $padding
+
+  #wrapper
+
+  header
+    display: flex
+    flex-direction: column
+    height: 173px
+  
+    >section
+      align-self: flex-end
+      background-image: url("../images/navFrame.svg")
+      background-repeat: no-repeat
+      background-size: 100% 100%
+      background-color: $BGtransparent
+      border-bottom: 1px solid black
+      border-top: 1px solid black
+      input
+        background-color: transparent
+        border: none
+        padding-left: 5px
+
+
+    nav
+
+      ul
+        height: 35px
+        width: 47%
+        margin-bottom: 0
+        background-image: url('../images/navFrame.svg')
+        background-repeat: no-repeat
+        background-size: 100% 100%
+        background-color: $BGtransparent
+        border-bottom: 1px solid black
+        border-top: 1px solid black
+
+      li:hover
+        color: aliceblue
+
+      li:active
+        color: blue
+        background-color: aliceblue
+      li
+        list-style: none
+        float: left
+        text-align: center
+        margin: $divisionMargin
+        width: 100px
+        height: 20px
+        padding-top: 5px
+        border-radius: $bordRadius
+        background-color: black
+        color: red
+        transition: all 1s
+
+        a
+          color: inherit
+          text-decoration-line: none
+
+
+    #techBarHearder
+      //background-image: url("../slide/techBar.svg")
+      //background-repeat: no-repeat
+      //transform: scaleY(-1)
+      float: left
+      margin-left: -6px
+      width: 90%
+      height: auto
+
+      .tecIdicator
+        float: right
+        position: relative
+        top: 45px
+        margin-left: 2%
+        margin-right: 2%
+        width: 25px
+        height: 25px
+        background: blue
+
+    p
+      display: inline
+      color: white
+      position: relative
+      right: 500px
+      top: 7px
+      //float: right
+    h1
+      width: 8%
+      height: auto
+      float: right
+      position: relative
+      top: -158px
+      align-self: flex-end
+      #logo:hover
+        width: 95%
+      #logo:active
+        transform: scaleX(-1)
+
+      #logo
+        width: 100%
+        height: auto
+        transition: all .3s
+  #app-testemonial
+    display: flex
+    flex-direction: row
+    width: 100%
+    align-items: center
+    border-top: 1px solid black
+    border-bottom: 1px solid black
+    background-color: $BGtransparent
+    >div
+      background-image: url("../images/textFrame.svg")
+      background-repeat: no-repeat
+      background-size: 100% 100%
+      //background-color: $BGtransparent
+      padding: 20px
+      display: flex
+      flex-direction: column
+      margin-left: 1%
+      margin-right: 1%
+    .picFrame
+      width: 150px
+      height: 150px
+      background-size: cover
+
+    #teste_1
+      background-image: url("../images/googleGlass.png")
+      align-self: flex-start
+    #teste_2
+      background-image: url("../images/arthur2.png")
+      align-self: center
+
+    #teste_3
+      background-image: url("../images/holoMan.png")
+      align-self: flex-end
+    p
+      //font: $font-sourcePro
+  #app-slide
+    text-align: center
+    width: 100%
+    //width: 80%
+    //position: relative
+    //left: 10%
+    img
+      width: 100%
+
+  .fordward, .back
+    position: relative
+    top: -250px
+    font-size: xx-large
+    text-decoration: red
+    color: red
+
+  .fordward
+    float: right
+    right: 1%
+
+  .back
+    float: left
+    left: -18%
+
+  .slidersindicators:hover
+    width: 35px
+    height: 25px
+    padding-top: 10px
+    color: aliceblue
+  .slidersindicators:active
+    color: green
+    background-color: aliceblue
+
+  .slidersindicators
+    position: relative
+    float: left
+    margin-left: 1%
+    margin-right: 1%
+    width: 25px
+    height: 20px
+    padding-top: 5px
+    position: relative
+    bottom: 40px
+    left: 40%
+    background: red
+    border-radius: $bordRadius
+    transition: width 0.3s, height 0.3s, color 0.5s
+    transition-timing-function: cubic-bezier(.17,.84,.44,1)
+
+  footer
+    width: 100%
+    height: auto
+    color: white
+    display: flex
+    flex-direction: column
+    align-items: center
+  footer
+    #techBarFooter
+      transform: scaleX(-1)
+      width: 90%
+      height: auto
+      position: relative
+      left: 5.5%
+    section
+      background-image: url("../images/navFrame.svg")
+      background-repeat: no-repeat
+      background-size: 100% 100%
+      background-color: $BGtransparent
+      border-bottom: 1px solid black
+      border-top: 1px solid black
+      padding: 10px
+      #partners
+        display: flex
+        justify-content: center
+
+        .partners:hover
+          width: 35px
+          height: 35px
+        .partners:active
+          width: 25px
+          height: 25px
+          background-color: aliceblue
+
+        .partners
+          width: 30px
+          height: 30px
+          margin-left: 1%
+          margin-right: 1%
+          background-repeat: no-repeat
+          background-size: 95%
+          display: inline
+          transition: all 0.3s
+
+        a:nth-child(1)
+          background-image: url("../images/yahoo.png")
+
+        a:nth-child(2)
+          background-image: url("../images/facebook.png")
+
+        a:nth-child(3)
+          background-image: url("../images/google.png")
+
+        a:nth-child(4)
+          background-image: url("../images/twitter.png")
+
+        a:nth-child(5)
+          background-image: url("../images/apple.png")
+
+        a:nth-child(6)
+          background-image: url("../images/windows.png")
